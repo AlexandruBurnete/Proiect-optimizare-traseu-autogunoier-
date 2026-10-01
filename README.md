@@ -3,6 +3,8 @@
 > **Research project** — predictive waste collection and route planning for three
 > real collection routes in Sibiu, aimed at cutting driven kilometres.
 
+#This project was developed as a team effort. My primary contribution involved implementing the scripts in the `src/` folder, optimizing the algorithms, and building the Streamlit interface.
+
 632 container stops from three vehicle logs are cleaned, geocoded, and used to
 answer two questions:
 
@@ -216,3 +218,4 @@ Also there: `RAW_FILES`, `FINAL_COLUMNS`, and the three predicted-output paths.
   nothing writes there any more.
 - `config.THRESHOLDS` and `FillLevelPredictor.THRESHOLDS` (per-capacity
   thresholds) are defined but unused — only the global `THRESHOLD` is applied.
+
